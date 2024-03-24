@@ -1,8 +1,8 @@
 using System;
 
-class Program
+class Prog two
 {
-    static void Main()
+    static void Main(string[]args)
     {
         for (int i = 1; i <= 100; i++)
         {
