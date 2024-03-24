@@ -1,0 +1,27 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Convert seconds to minutes
+        int seconds = 123;
+        int minutes = seconds / 60;
+        Console.WriteLine(seconds + " seconds is equal to " + minutes + " minutes.");
+
+        // Convert minutes to hours
+        int minutes1 = 123;
+        int hours = minutes1 / 60;
+        Console.WriteLine(minutes1 + " minutes is equal to " + hours + " hours.");
+
+        // Convert hours to days
+        int hours1 = 24;
+        int days = hours1 / 24;
+        Console.WriteLine(hours1 + " hours is equal to " + days + " days.");
+
+        // Convert days to months
+        int days1 = 30;
+        int months = days1 / 30;
+        Console.WriteLine(days1 + " days is equal to " + months + " months.");
+    }
+}
